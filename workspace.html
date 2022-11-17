@@ -1,0 +1,101 @@
+@include('partials/header.html', {
+    'color': 'white'
+    })
+    
+    <div class="page-container">
+        <div class="workspace-main" style="background-image: url('img/workspace.jpg')">
+            <div class="container">
+                <h1 class="workspace-title">
+                    Inside Estoty
+                </h1>
+            </div>
+        </div>
+
+
+        <div class="office-gallery">
+            <div class="container">
+                <div class="office-gallery__inner">
+                    <h2 class="block-title">
+                        Unleash your creativity
+
+                    </h2>
+
+                    <p class="block-descr">
+                        Create awesome games, collaborate with team members, and develop your skills at Estoty.
+                    </p>
+
+                    <div class="gallery">
+                        <div class="gallery-wrapper">
+                            <div class="gallery-slide">
+                                <img src="/img/office1.jpg" alt="">
+                            </div>
+                            <div class="gallery-slide">
+                                <img src="/img/office2.jpg" alt="">
+                            </div>
+                            <div class="gallery-slide">
+                                <img src="/img/office1.jpg" alt="">
+                            </div>
+                            <div class="gallery-slide">
+                                <img src="/img/office1.jpg" alt="">
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="talents">
+            <div class="container">
+                <div class="talents__inner">
+                    <h2 class="block-title">
+                        We invest in our talents
+                    </h2>
+
+                    <p class="block-descr">
+                        Your health and well-being matters - that’s why we strive to make every workplace super comfortable.
+                    </p>
+
+                    <div class="talents__rows">
+                        <div class="talents__rows-item">
+                            <div class="talents__img">
+                                <img src="img/t1.jpg" alt="">
+                                <img src="img/t2.jpg" alt="">
+                            </div>
+
+                            <div class="talents__content">
+                                <div class="country main-country">LATVIA</div>
+                                <div class="country second-country">lithuania</div>
+                                <h4 class="title">Built for collaboration</h4>
+                                <p class="text">
+                                    Teams across all disciplines work closely together to find the best solutions and create amazing games.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="talents__rows-item talents__rows-item--mirror">
+                            <div class="talents__img">
+                                <img src="img/t1.jpg" alt="">
+                                <img src="img/t2.jpg" alt="">
+                            </div>
+
+                            <div class="talents__content">
+                                <div class="country main-country">LATVIA</div>
+                                <div class="country second-country">lithuania</div>
+                                <h4 class="title">Built for collaboration</h4>
+                                <p class="text">
+                                    Teams across all disciplines work closely together to find the best solutions and create amazing games.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    @include('partials/footer.html')
